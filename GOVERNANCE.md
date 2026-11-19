@@ -10,7 +10,7 @@ The project operates under an open, community-oriented governance model with two
 
 ### Maintainers
 
-- **Team**: AI Economy Team (`x402-avm` maintainers)
+- **Team**: x402-avm contributors
 - **Responsibilities**:
   - Reviewing, testing, and merging Pull Requests.
   - Maintaining CI/CD workflows, build infrastructure, and documentation sites.

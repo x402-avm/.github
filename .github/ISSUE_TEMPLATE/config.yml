@@ -4,7 +4,7 @@ contact_links:
     url: https://x402-avm.github.io
     about: Read the official guides, tutorials, concepts, and API reference for all packages.
   - name: GitHub Discussions
-    url: https://github.com/orgs/x402-avm/discussions
+    url: https://github.com/x402-avm/x402-avm/discussions
     about: Ask questions, discuss architecture, share ideas, and connect with other developers.
   - name: Security Vulnerability Reporting
     url: https://github.com/x402-avm/.github/security/advisories/new

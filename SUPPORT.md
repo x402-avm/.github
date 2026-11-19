@@ -31,7 +31,7 @@ For working code snippets and reproducible patterns, refer to the examples repos
 
 For general architectural questions, implementation advice, or idea brainstorming:
 
-- Visit the [x402-avm Discussions](https://github.com/orgs/x402-avm/discussions).
+- Visit the [x402-avm Discussions](https://github.com/x402-avm/x402-avm/discussions).
 - Search existing threads to see if your question has already been answered.
 - If creating a new discussion, choose the most appropriate category:
   - **Q&A**: Specific technical questions about integrating SDKs.

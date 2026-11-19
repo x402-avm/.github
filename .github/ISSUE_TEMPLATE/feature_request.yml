@@ -6,7 +6,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thank you for suggesting a feature. For broad architectural proposals or open-ended discussions, consider opening a thread on [GitHub Discussions](https://github.com/orgs/x402-avm/discussions) first.
+        Thank you for suggesting a feature. For broad architectural proposals or open-ended discussions, consider opening a thread on [GitHub Discussions](https://github.com/x402-avm/x402-avm/discussions) first.
 
   - type: dropdown
     id: package

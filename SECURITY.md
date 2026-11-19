@@ -34,6 +34,8 @@ If you discover a security vulnerability in any x402-avm package, please disclos
    - Analysis of potential impact (e.g., funds loss, payment bypass, replay, denial of service).
    - Any suggested mitigations or patches.
 
+For general questions, non-sensitive inquiries, or architectural discussions, use [GitHub Discussions on the hub repository](https://github.com/x402-avm/x402-avm/discussions) or open a [GitHub Issue](https://github.com/x402-avm/x402-avm/issues). Private security advisories remain strictly reserved for confidential vulnerability disclosures.
+
 ---
 
 ## Security Scope
