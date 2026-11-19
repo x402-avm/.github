@@ -1,0 +1,63 @@
+name: Feature Request
+description: Suggest an idea or enhancement for the x402-avm SDKs or tooling
+title: "[Feature]: "
+labels: ["enhancement", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for suggesting a feature. For broad architectural proposals or open-ended discussions, consider opening a thread on [GitHub Discussions](https://github.com/orgs/x402-avm/discussions) first.
+
+  - type: dropdown
+    id: package
+    attributes:
+      label: Target Package or Component
+      description: Select the package or repository this feature applies to.
+      options:
+        - "ai-economy-sdk (Python)"
+        - "x402-algorand (Python plugin)"
+        - "x402-avm-js (TypeScript)"
+        - "examples"
+        - "marketplace-demo"
+        - "documentation (x402-avm.github.io)"
+        - "cross-cutting / all packages"
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem Statement
+      description: Is your feature request related to a specific problem or missing capability?
+      placeholder: "A clear and concise description of what the problem or limitation is."
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposed_solution
+    attributes:
+      label: Proposed Solution
+      description: Describe the solution or new API design you would like to see.
+      placeholder: "Detailed explanation of the proposed behavior, signature, or configuration."
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives Considered
+      description: Describe any alternative solutions or workarounds you have considered.
+
+  - type: textarea
+    id: additional_context
+    attributes:
+      label: Additional Context
+      description: Add any other context, diagrams, or references to relevant standards (e.g. CAIP-2, ERC-402, ARC standards).
+
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Confirmation
+      options:
+        - label: I have checked existing issues and discussions to ensure this feature has not already been proposed.
+          required: true

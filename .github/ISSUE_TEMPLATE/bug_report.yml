@@ -1,0 +1,90 @@
+name: Bug Report
+description: File a reproducible bug report to help us improve the SDKs and tools
+title: "[Bug]: "
+labels: ["bug", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for reporting an issue. Please verify you are using a supported version and check whether the issue has already been reported.
+
+        For security vulnerabilities, please do not file a public bug report. Consult our [Security Policy](https://github.com/x402-avm/.github/blob/main/SECURITY.md) instead.
+
+  - type: dropdown
+    id: package
+    attributes:
+      label: Affected Package or Component
+      description: Select the package or repository where the issue occurred.
+      options:
+        - "ai-economy-sdk (Python)"
+        - "x402-algorand (Python plugin)"
+        - "x402-avm-js (TypeScript)"
+        - "examples"
+        - "marketplace-demo"
+        - "documentation (x402-avm.github.io)"
+        - "other / unknown"
+    validations:
+      required: true
+
+  - type: input
+    id: version
+    attributes:
+      label: Package Version
+      description: What version of the package are you using? (e.g. `ai-economy-sdk==0.4.0`, `x402-avm-js@0.3.0`)
+      placeholder: "e.g. 0.4.0"
+    validations:
+      required: true
+
+  - type: input
+    id: environment
+    attributes:
+      label: Environment
+      description: Operating system, runtime version (e.g. Python 3.12, Node 20), network (LocalNet, TestNet, MainNet).
+      placeholder: "e.g. Ubuntu 24.04, Python 3.12.3, LocalNet (Algod 3.23.0)"
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: A concise description of what the bug is.
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Steps to Reproduce
+      description: Provide a minimal, reproducible code snippet or step-by-step instructions.
+      placeholder: |
+        1. Initialize client with ...
+        2. Call session.call_tool(...)
+        3. Observe error ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected Behavior
+      description: What did you expect to happen?
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual Behavior & Logs
+      description: Paste relevant error messages, stack traces, or console output.
+      render: shell
+
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Confirmation
+      options:
+        - label: I have searched existing issues and confirmed this is not a duplicate.
+          required: true
+        - label: I have provided minimal reproduction code and environment information.
+          required: true
