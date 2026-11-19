@@ -3,17 +3,27 @@
   <img alt="x402-avm" src="https://x402-avm.github.io/logo/light.svg" height="40">
 </picture>
 
-# x402-avm
-
 SDKs for paying for APIs and AI tools per call on Algorand, using the x402 protocol (HTTP 402 Payment Required). No accounts, API keys or subscriptions: the server names a price, the client pays, and the payment settles only if the tool succeeds.
 
 ## Packages
 
-| Package | What it does | Install | Registry |
-|---|---|---|---|
-| [`ai-economy-sdk`](https://github.com/x402-avm/ai-economy-sdk) | Python SDK to monetize MCP servers and pay for tool calls with spend controls | `pip install ai-economy-sdk` | [PyPI](https://pypi.org/project/ai-economy-sdk/) |
-| [`x402-algorand`](https://github.com/x402-avm/x402-algorand) | Python plugin implementing the Algorand exact payment scheme for official x402 | `pip install x402-algorand` | [PyPI](https://pypi.org/project/x402-algorand/) |
-| [`x402-avm-js`](https://github.com/x402-avm/x402-avm-js) | TypeScript library to pay 402 responses from browser or Node with any Algorand wallet | `npm install x402-avm-js algosdk` | [npm](https://www.npmjs.com/package/x402-avm-js) |
+**[ai-economy-sdk](https://github.com/x402-avm/ai-economy-sdk)** · Python · [PyPI](https://pypi.org/project/ai-economy-sdk/)
+Charge for MCP tools and HTTP APIs, and pay for tool calls from agents with spend controls.
+```
+pip install ai-economy-sdk
+```
+
+**[x402-algorand](https://github.com/x402-avm/x402-algorand)** · Python · [PyPI](https://pypi.org/project/x402-algorand/)
+The Algorand exact payment scheme for the official x402 SDK.
+```
+pip install x402-algorand
+```
+
+**[x402-avm-js](https://github.com/x402-avm/x402-avm-js)** · TypeScript · [npm](https://www.npmjs.com/package/x402-avm-js)
+Pay 402 responses from the browser or Node with any Algorand wallet.
+```
+npm install x402-avm-js algosdk
+```
 
 Works on MainNet, TestNet, LocalNet and private networks, with ALGO or USDC.
 
